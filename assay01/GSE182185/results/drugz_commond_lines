@@ -1,0 +1,45 @@
+
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_Abemaciclib_vs_DMSO.txt -f results/Hep3B_Abemaciclib_vs_DMSO_fc.txt -c 3BT1-1,3BT1-2 -x 3BAbe-1,3BAbe-2
+
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_Palbociclib_vs_DMSO.txt -f results/Hep3B_Palbociclib_vs_DMSO_fc.txt -c 3BT1-1,3BT1-2 -x 3BPal-1,3BPal-2
+
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_Lenvatinib_vs_DMSO.txt -f results/Hep3B_Lenvatinib_vs_DMSO_fc.txt -c 3BT1-1,3BT1-2 -x 3BLenva-1,3BLenva-2
+
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_Regorafenib_vs_DMSO.txt -f results/Hep3B_Regorafenib_vs_DMSO_fc.txt -c 3BT1-1,3BT1-2 -x 3BReg-1,3BReg-2
+
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_Erastin_vs_DMSO.txt -f results/Hep3B_Erastin_vs_DMSO_fc.txt -c 3BT1-1,3BT1-2 -x 3BEra-1,3BEra-2
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_Erastin_vs_DMSO.txt -f results/Hep3B_Erastin_vs_DMSO_fc.txt -c 3BT1-1,3BT1-2 -x 3BSora-1,3BSora-2
+
+
+python drugz/drugz.py -i data/GSE182185_SNU-398.txt -o results/SNU-398_Abemaciclib_vs_DMSO.txt -f results/SNU-398_Abemaciclib_vs_DMSO_fc.txt -c 398T1-1,398T1-2 -x 398Abe-1,398Abe-2
+python drugz/drugz.py -i data/GSE182185_SNU-398.txt -o results/SNU-398_Palbociclib_vs_DMSO.txt -f results/SNU-398_Palbociclib_vs_DMSO_fc.txt -c 398T1-1,398T1-2 -x 398Pal-1,398Pal-2
+python drugz/drugz.py -i data/GSE182185_SNU-398.txt -o results/SNU-398_Lenvatinib_vs_DMSO.txt -f results/SNU-398_Lenvatinib_vs_DMSO_fc.txt -c 398T1-1,398T1-2 -x 398Lenva-1,398Lenva-2
+python drugz/drugz.py -i data/GSE182185_SNU-398.txt -o results/SNU-398_Regorafenib_vs_DMSO.txt -f results/SNU-398_Regorafenib_vs_DMSO_fc.txt -c 398T1-1,398T1-2 -x 398Reg-1,398Reg-2
+python drugz/drugz.py -i data/GSE182185_SNU-398.txt -o results/SNU-398_Erastin_vs_DMSO.txt -f results/SNU-398_Erastin_vs_DMSO_fc.txt -c 398T1-1,398T1-2 -x 398Era-1,398Era-2
+
+
+
+#essential gene分析，都和p0比较
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_Abemaciclib_vs_p0.txt -c 3BT01-1,3BT01-2 -x 3BAbe-1,3BAbe-2
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_Palbociclib_vs_p0.txt -c 3BT01-1,3BT01-2 -x 3BPal-1,3BPal-2
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_Lenvatinib_vs_p0.txt -c 3BT01-1,3BT01-2 -x 3BLenva-1,3BLenva-2
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_Regorafenib_vs_p0.txt -c 3BT01-1,3BT01-2 -x 3BReg-1,3BReg-2
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_Erastin_vs_p0.txt -c 3BT01-1,3BT01-2 -x 3BEra-1,3BEra-2
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_Sorafenib_vs_p0.txt -c 3BT01-1,3BT01-2 -x 3BSora-1,3BSora-2
+python drugz/drugz.py -i data/GSE182185_Hep3B.txt -o results/Hep3B_DMSO_vs_p0.txt -c 3BT01-1,3BT01-2 -x 3BT1-1,3BT1-2
+
+
+#MAGECK RRA/TEST
+mageck test -k GSE182185_Hep3B.txt -c 3BT1-1,3BT1-2 -t 3BAbe-1,3BAbe-2  -n Hep3B_Abemaciclib_vs_DMSO
+mageck test -k GSE182185_Hep3B.txt -c 3BT1-1,3BT1-2 -t 3BPal-1,3BPal-2  -n Hep3B_Palbociclib_vs_DMSO
+mageck test -k GSE182185_Hep3B.txt -c 3BT1-1,3BT1-2 -t 3BLenva-1,3BLenva-2  -n Hep3B_Lenvatinib_vs_DMSO
+mageck test -k GSE182185_Hep3B.txt -c 3BT1-1,3BT1-2 -t 3BReg-1,3BReg-2  -n Hep3B_Regorafenib_vs_DMSO
+mageck test -k GSE182185_Hep3B.txt -c 3BT1-1,3BT1-2 -t 3BEra-1,3BEra-2  -n Hep3B_Erastin_vs_DMSO
+mageck test -k GSE182185_Hep3B.txt -c 3BT1-1,3BT1-2 -t 3BSora-1,3BSora-2  -n Hep3B_Sorafenib_vs_DMSO
+
+mageck test -k GSE182185_Hep3B.txt -c 3BT01-1,3BT01-2 -t 3BAbe-1,3BAbe-2  -n Hep3B_Abemaciclib_vs_p0
+mageck test -k GSE182185_Hep3B.txt -c 3BT01-1,3BT01-2 -t 3BPal-1,3BPal-2  -n Hep3B_Palbociclib_vs_p0
+mageck test -k GSE182185_Hep3B.txt -c 3BT01-1,3BT01-2 -t 3BLenva-1,3BLenva-2  -n Hep3B_Lenvatinib_vs_p0
+mageck test -k GSE182185_Hep3B.txt -c 3BT01-1,3BT01-2 -t 3BReg-1,3BReg-2  -n Hep3B_Regorafenib_vs_p0
+mageck test -k GSE182185_Hep3B.txt -c 3BT01-1,3BT01-2 -t 3BEra-1,3BEra-2  -n Hep3B_Erastin_vs_p0
+mageck test -k GSE182185_Hep3B.txt -c 3BT01-1,3BT01-2 -t 3BSora-1,3BSora-2  -n Hep3B_Sorafenib_vs_p0

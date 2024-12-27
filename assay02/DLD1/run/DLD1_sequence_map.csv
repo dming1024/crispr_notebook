@@ -1,0 +1,6 @@
+sequence_ID,cell_line_name,pDNA_batch,days
+DLD-1-Reference,pDNA,DLD1_0,0
+DLD-1-Baseline,DLD,DLD1_0,0
+DLD-1-Vehicle-1,DLD,DLD1_0,14
+DLD-1-Vehicle-2,DLD,DLD1_0,14
+DLD-1-Vehicle-3,DLD,DLD1_0,14

@@ -1,0 +1,5 @@
+sequence_ID,cell_line_name,pDNA_batch,days
+HT29-Reference,pDNA,HT29_0,0
+HT29-Baseline,HT29,HT29_0,0
+HT29-D1,HT29,HT29_0,14
+HT29-D2,HT29,HT29_0,14

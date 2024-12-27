@@ -1,0 +1,5 @@
+sequence_ID,cell_line_name,pDNA_batch,days
+MDA-MB-231-Reference,pDNA,MDAMB231_0,0
+MDA-MB-231-Baseline,MDA-MB-231,MDAMB231_0,0
+MDA-MB-231-Vehicle-1,MDA-MB-231,MDAMB231_0,14
+MDA-MB-231-Vehicle-2,MDA-MB-231,MDAMB231_0,14

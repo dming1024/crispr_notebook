@@ -1,0 +1,18 @@
+
+
+project_name: "test"
+
+#sequence_map: sequence_id, cell_line_name, pDNA_batch, days
+#guide_map: sgrna, gene
+#readcounts: sequence_id*sgrna counts
+sequence_map: "Data/SampleData/AvanaSequenceMap.csv"
+guide_map: "Data/SampleData/AvanaGuideMap.csv"
+readcounts: "Data/SampleData/AvanaReadcounts.hdf5"
+
+common_essentials: "Data/SampleData/AchillesCommonEssentialControls.csv"
+nonessentials: "Data/SampleData/AchillesNonessentialControls.csv"
+
+#output results, automatically create if not exits
+output_results: "test/test_run"
+output_qc: "test/QC"
+log_dir: "test/logs"

@@ -1,0 +1,18 @@
+
+
+project_name: "screen2"
+
+#sequence_map: sequence_id, cell_line_name, pDNA_batch, days
+#guide_map: sgrna, gene
+#readcounts: sequence_id*sgrna counts
+sequence_map: "sequence_map_2_vs_2.xlsx"
+guide_map: "guide_map.csv"
+readcounts: "sgRNA_counts_2_vs_2.csv"
+
+common_essentials: "AchillesCommonEssentialControls.csv"
+nonessentials: "AchillesNonessentialControls.csv"
+
+#output results, automatically create if not exits
+output_results: "screen/run2"
+output_qc: "reports"
+log_dir: "logs"

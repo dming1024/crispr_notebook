@@ -1,0 +1,6 @@
+sequence_ID,cell_line_name,pDNA_batch,days
+U2OS-Reference,pDNA,U2OS_0,0
+U2OS-Baseline,U2OS,U2OS_0,0
+U2OS-Vehicle-1,U2OS,U2OS_0,14
+U2OS-Vehicle-2,U2OS,U2OS_0,14
+U2OS-Vehicle-3,U2OS,U2OS_0,14

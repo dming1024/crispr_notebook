@@ -1,0 +1,5 @@
+sequence_ID,cell_line_name,pDNA_batch,days
+MCF7-WT-1-Baseline,pDNA,MCF7_0,0
+MCF7-WT-2-Baseline,pDNA,MCF7_0,0
+MCF7-WT-1-DT28,U2OS,MCF7_0,14
+MCF7-WT-2-DT28,U2OS,MCF7_0,14
